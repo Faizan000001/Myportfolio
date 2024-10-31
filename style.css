@@ -170,7 +170,7 @@ button{
     aspect-ratio: 1;
     border-radius: 50%;
     border: .4rem solid var(--green-clr);
-    background-image: url('image/faizan.jpg');
+    background-image: url('./image/faizan.jpg');
     background-position: center;
     background-size: 95%;
     position: relative;

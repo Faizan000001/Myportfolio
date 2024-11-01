@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     document.getElementsByClassName('border-btn')[0].addEventListener('click', () => {
         console.log('hi')
-        window.location.href = "/projects.html";
+        window.location.href = "./projects.html";
     });
 });
 

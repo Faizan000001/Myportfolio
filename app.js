@@ -1,10 +1,18 @@
 const menu = document.querySelector(".hamburger");
-    const list = document.querySelector(".navlist");
+const list = document.querySelector(".navlist");
+// const navlink = document.querySelector('.navlinks');
+
 document.addEventListener('DOMContentLoaded', function() { 
-    menu.addEventListener('click', () =>{
-        list.classList.toggle("navlist-active")
-    })
-  });
+    menu.addEventListener('click', () => {
+        list.classList.toggle("navlist-active");
+    }); 
+    
+    document.getElementsByClassName('border-btn')[0].addEventListener('click', () => {
+        console.log('hi')
+        window.location.href = "/projects.html";
+    });
+});
+
   
 
 // Contact coding
@@ -66,3 +74,4 @@ document.addEventListener('DOMContentLoaded', function(event) {
     
     
 })
+
